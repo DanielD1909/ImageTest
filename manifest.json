@@ -1,10 +1,23 @@
 {
-  "id": "com.author.modname",
-  "name": "My Mod",
-  "description": "Description of your mod",
+  "id": "danield1909-imagetest",
+  "name": "Image Test via Mamdani",
+  "description": "Lets you look at Zohran Mamdani at any time as a test.",
   "version": "1.0.0",
   "author": {
-    "name": "Your Name"
+    "name": "DanielD1909"
   },
-  "main": "index.js"
+  "main": "index.js",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DanielD1909/ImageTest"
+	},
+	"keywords": [
+		"subway-builder",
+		"mod"
+	],
+	"subwayBuilderVersion": ">=1.2.0",
+	"dependencies": {
+	  "subway-builder": ">=1.2.0"
+	}
 }

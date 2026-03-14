@@ -3,11 +3,11 @@
  * Entry point for the mod.
  */
 
-import { ExamplePanel } from './ui/ExamplePanel';
+import { MamdaniPanel } from './ui/ExamplePanel';
 
-const MOD_ID = 'com.author.modname';
+const MOD_ID = 'danield1909-imagetest';
 const MOD_VERSION = '1.0.0';
-const TAG = '[MyMod]';
+const TAG = '[MamdaniPanel]';
 
 const api = window.SubwayBuilderAPI;
 
@@ -27,19 +27,10 @@ if (!api) {
     try {
       // Example: Add a floating panel with a React component
       api.ui.addFloatingPanel({
-        id: 'my-mod-panel',
-        title: 'My Mod',
-        icon: 'Puzzle',
-        render: ExamplePanel,
-      });
-
-      // Example: Add a button to the escape menu
-      api.ui.addButton('escape-menu', {
-        id: 'my-mod-button',
-        label: 'My Mod Button',
-        onClick: () => {
-          api.ui.showNotification('Hello from My Mod!', 'info');
-        },
+        id: 'mamdani-panel',
+        title: 'Zohran Mamdani',
+        icon: 'Apple',
+        render: MamdaniPanel,
       });
 
       console.log(`${TAG} Initialized successfully.`);
